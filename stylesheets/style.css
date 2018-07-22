@@ -1,3 +1,9 @@
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
 header {
 	background: yellow;
 	padding: 10px 0;
@@ -8,4 +14,21 @@ header {
 
 header nav ul li {
 	display: inline;
+}
+
+header nav a:hover {
+	color: blue;
+}
+
+.hero-image-section {
+	background-image: url("../images/hero-image.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 200px 0;
+	text-align: center;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
 }
