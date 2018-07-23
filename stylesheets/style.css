@@ -48,7 +48,7 @@ header nav a:hover {
 .services h1::after {
 	content: " Portfolio";
 	font-weight: bold;
-	}
+}
 
 .services {
 	text-align: center;
@@ -91,4 +91,5 @@ footer nav ul li {
 	50% {
 		transform: rotatex(0);
 	}
+
 }
